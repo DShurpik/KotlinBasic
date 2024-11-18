@@ -6,7 +6,7 @@ fun main() {
         print(c + "!")
     }
     println()
-    val s:String = "    |123|    "
+    val s: String = "    |123|    "
     println(s.trimMargin("|") + " Trim margin")
     println(s.trimEnd() + " Trim end")
     println(s.trim() + " Trim")
@@ -20,7 +20,7 @@ fun main() {
     val name: String = "John"
     println("${name}" + " Name")
 
-    val str1 : String = """
+    val str1: String = """
                     String1
                 String2
                         String3

@@ -7,7 +7,7 @@ fun main() {
 
 fun squareSum(n: Array<Int>): Int {
     var sum: Int = 0
-    for(i in n) {
+    for (i in n) {
         sum += i * i
     }
     return sum

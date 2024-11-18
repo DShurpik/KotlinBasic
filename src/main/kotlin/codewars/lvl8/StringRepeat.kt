@@ -7,7 +7,7 @@ fun main() {
 
 fun repeatStr1(r: Int, str: String) = str.repeat(r)
 
-fun repeatStr(r: Int, str: String) : String {
+fun repeatStr(r: Int, str: String): String {
     var s: String = ""
     for (i in 1..r) {
         s += str

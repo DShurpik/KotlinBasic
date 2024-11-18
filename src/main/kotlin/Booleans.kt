@@ -17,13 +17,13 @@ fun main() {
     val comparisonResult1: Boolean
     comparisonResult = userAge >= AGE_LIMIT && userAge <= RETIREMENT_AGE
     println("$comparisonResult : Compare with && operator")
-    comparisonResult1 = (userAge >= AGE_LIMIT) and  (userAge <= RETIREMENT_AGE)
+    comparisonResult1 = (userAge >= AGE_LIMIT) and (userAge <= RETIREMENT_AGE)
     println("$comparisonResult1 : Compare with AND operator")
 
     val comp1: Boolean
     val comp2: Boolean
     comp1 = userAge >= AGE_LIMIT || userAge <= RETIREMENT_AGE
-    comp2 = (userAge >=AGE_LIMIT) or (userAge <= RETIREMENT_AGE)
+    comp2 = (userAge >= AGE_LIMIT) or (userAge <= RETIREMENT_AGE)
     println("$comp1 : Compare with || operator")
     println("$comp2 : Compare with OR operator")
 

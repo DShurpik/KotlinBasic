@@ -5,7 +5,7 @@ fun main() {
     println(makeNegative1(-1))
 }
 
-fun makeNegative(x: Int): Int = if(x > 0) -x else x
+fun makeNegative(x: Int): Int = if (x > 0) -x else x
 
 fun makeNegative1(x: Int): Int{
     if (x > 0) {
