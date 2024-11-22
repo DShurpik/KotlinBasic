@@ -1,3 +1,5 @@
+package kotlinCourse
+
 fun main() {
 
     // While(true) {That code works}

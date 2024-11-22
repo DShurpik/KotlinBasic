@@ -1,3 +1,5 @@
+package kotlinCourse
+
 fun main() {
     // Диапозон или интервал
     val range1: IntRange = 42..442 // 42 <= and <= 442

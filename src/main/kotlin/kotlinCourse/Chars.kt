@@ -1,3 +1,5 @@
+package kotlinCourse
+
 fun main() {
     val a: Char = 'a'
     println(a)

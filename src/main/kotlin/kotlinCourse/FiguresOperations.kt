@@ -1,3 +1,5 @@
+package kotlinCourse
+
 fun main() {
     val x = 5 / 2
     // println(x == 2.5) // ОШИБКА: Оператор '==' не может быть применен к 'Int' и 'Double'

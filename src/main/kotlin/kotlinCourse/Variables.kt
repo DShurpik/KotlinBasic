@@ -1,3 +1,5 @@
+package kotlinCourse
+
 fun main() {
     /** Если число не выходит за предел Int, то все инициализируется как Int */
 

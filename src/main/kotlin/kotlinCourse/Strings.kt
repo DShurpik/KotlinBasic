@@ -1,3 +1,5 @@
+package kotlinCourse
+
 fun main() {
     val str = "abcd 123"
     println(str)

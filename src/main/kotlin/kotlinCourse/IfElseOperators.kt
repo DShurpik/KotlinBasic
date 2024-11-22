@@ -1,3 +1,5 @@
+package kotlinCourse
+
 fun main() {
     print("Enter worker age : ")
     val workerAge = readLine()!!.toInt() // Работает как сканнер в Джава

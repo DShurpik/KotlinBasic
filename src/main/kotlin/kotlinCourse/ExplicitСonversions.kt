@@ -1,3 +1,5 @@
+package kotlinCourse
+
 fun main() {
     /**
     val a: Int? = 1 // "Обёрнутый" Int (java.lang.Integer)

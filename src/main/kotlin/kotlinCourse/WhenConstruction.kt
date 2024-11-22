@@ -1,3 +1,5 @@
+package kotlinCourse
+
 fun main() {
     val figure: Int = readln()!!.toInt()
 
