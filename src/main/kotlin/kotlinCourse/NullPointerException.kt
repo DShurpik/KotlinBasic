@@ -12,12 +12,14 @@ fun main() {
     println(nonNullableString.length)
 
     val nullableString1: String? = null
-    val length: Int = nullableString1?.length ?: 0
-// Слева от себя он проверяет значение на null и если оно таковым оказывается, отдает значение справа
+    // Слева от себя он проверяет значение на null и если оно таковым оказывается, отдает значение справа
 // от себя, которое точно не будет null и не вызовет ошибки
+    val length: Int = nullableString1?.length ?: -1
+    println(length)
+
 
     //Оператор утверждения “это не null” – !!
 
-    val nullableString2: String? = null
+    val nullableString2: String? = "null"
     val length2: Int = nullableString2!!.length
 }
