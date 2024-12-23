@@ -9,11 +9,12 @@ fun main() {
     val charArray1: CharArray = charArrayOf('4', '4', '2')
 
     val intArray2: Array<Int> = arrayOf() // нужно проставялть тип массива ОБЯЗАТЕЛЬНО
-    val intArray21 = arrayListOf(1, 2, 3, 4, 5) // Если сразу инициализировать массив, то компилятор понимает что это инт
+    val intArray21 =
+        arrayListOf(1, 2, 3, 4, 5) // Если сразу инициализировать массив, то компилятор понимает что это инт
     val intArray3 = intArrayOf() // компилятор понимает что создается инт массив
 
     val array0 = arrayOfNulls<String>(5) // [null],[null],[null],[null],[null]
-    val array = Array(5) { 0 } // Массив из 5 элементов, все элементы равны 0 [0],[0],[0],[0],[0]
+    val array = Array(5) { 0 } // Массив из 5 элементов, все элементы равны 0 [[0],[0],[0],[0],[0]]
 
     val strArr: Array<String> = arrayOf("a", "b", "c", "d", "e")
     println("Размер массива strArr = ${strArr.size}") // arr.size для вывода размера массива
@@ -25,7 +26,15 @@ fun main() {
     strArr.size // размер массива
     strArr.first() // вернет 1-й элемент массива
     strArr.last() // вернет последний элемент массива
-    intArray1.plus(intArrayOf(1,2,3,4,5))// Метод plus создает новую коллекцию, добавляя элементы или объединяя коллекции.
+    intArray1.plus(
+        intArrayOf(
+            1,
+            2,
+            3,
+            4,
+            5
+        )
+    )// Метод plus создает новую коллекцию, добавляя элементы или объединяя коллекции.
     intArray1.sort() // сортировка по возрастанию [1],[2],[3]
     intArray1.sortDescending() // сортировка по убыванию [3],[2],[1]
     for (i in strArr) {

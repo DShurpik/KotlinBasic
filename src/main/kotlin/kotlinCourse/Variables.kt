@@ -1,11 +1,14 @@
 package kotlinCourse
 
+val strGlobal = "Hello world!"
+
 fun main() {
     /** Если число не выходит за предел Int, то все инициализируется как Int */
 
     // целочисленные
     val intNum1: Int = -2147483648 // 32 bit
     val intNum2: Int = 2147483647 // 32 bit
+    val intNum3: Int? = null // в переменную записывается либо инт либо null
     val longNum: Long // 64 bit
     val shortNum: Short // 16 bit
     val byteNum: Byte // 8 bit
@@ -39,5 +42,7 @@ fun main() {
 
     val ex: Int = 100
     println(ex in 50..150) // Проверка что 100 входит в диапозон 50-150
+
+    println(strGlobal)
 
 }
